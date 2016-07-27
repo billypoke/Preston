@@ -1,0 +1,6 @@
+{
+  "name": "Preston",
+  "tagline": "Python library for accessing Eve Online's CREST API",
+  "body": "### Preston\r\n\r\nPreston is a Python library for accessing Eve Online's CREST and XML APIs.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
