@@ -1,13 +1,12 @@
 # Preston
 
-[![Build Status](https://travis-ci.org/Celeo/Preston.svg?branch=master)](https://travis-ci.org/Celeo/Preston)
-[![codecov](https://codecov.io/gh/Celeo/Preston/branch/master/graph/badge.svg)](https://codecov.io/gh/Celeo/Preston)
+[![Build Status](https://travis-ci.org/billypoke/Preston.svg?branch=master)](https://travis-ci.org/billypoke/Preston)
 
-Preston is a Python library for accessing EVE Online's ESI API.
+Preston is a Python library for accessing EVE Online's ESI API. This is a fork from the original after that was archived.
 
 ## Quick links
 
-* EVE ESI: https://esi.tech.ccp.is/
+* EVE ESI: https://esi.evetech.net/
 * EVE third-party documentation: http://eveonline-third-party-documentation.readthedocs.io
 * EVE developers: https://developers.eveonline.com/
 
@@ -16,21 +15,21 @@ Preston is a Python library for accessing EVE Online's ESI API.
 From [pip](https://pip.pypa.io/en/stable/):
 
 ```bash
-pip install preston
+pip install preston_new
 ```
 
 From GitHub:
 
 ```bash
-git clone https://github.com/Celeo/Preston.git
-cd Preston
+git clone https://github.com/billypoke/Preston_new.git
+cd Preston_new
 python setup.py install
 ```
 
 ## Initialization
 
 ```python
-from preston import Preston
+from preston_new import Preston
 
 preston = Preston()
 ```
@@ -83,7 +82,7 @@ preston.get_authorize_url()
 
 This is the URL that your user needs to visit and complete the flow. They'll be redirected to your app's callback URL, so you have to be monitoring that.
 
-When you get their callback, take the code paramter from the URL and pass it to `authenticate`:
+When you get their callback, take the code parameter from the URL and pass it to `authenticate`:
 
 ```python
 auth = preston.authenticate('their_code_here')

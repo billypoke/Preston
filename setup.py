@@ -2,19 +2,19 @@ from setuptools import setup
 import re
 
 
-with open('preston/__init__.py') as f:
+with open('preston_new/__init__.py') as f:
     version = re.search(r'(\d+\.\d+\.\d+)', f.read()).group(1)
 
 setup(
-    name='Preston',
-    author='Matt "Celeo" Boulanger',
-    author_email='celeodor@gmail.com',
+    name='Preston_new',
+    author='billypoke',
+    author_email='billypoke_dev@gmail.com',
     version=version,
     license='MIT',
     description='EVE ESI API access tool',
-    url='https://github.com/Celeo/Preston',
+    url='https://github.com/billypoke/Preston',
     platforms='any',
-    packages=['preston'],
+    packages=['preston_new'],
     keywords=['eve online', 'api', 'esi'],
     install_requires=[
         'requests>=2.18.4'

@@ -9,3 +9,5 @@ dist
 .vscode
 .mypy_cache
 .pytest_cache
+venv/
+.idea/

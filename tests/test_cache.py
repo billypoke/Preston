@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 
 import pytest
 
-from preston.preston import Preston
-from preston.cache import Cache
+from preston_new.preston import Preston
+from preston_new.cache import Cache
 
 
 @pytest.fixture

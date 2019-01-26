@@ -2,7 +2,7 @@ import time
 
 import pytest
 
-from preston import Preston
+from preston_new import Preston
 
 
 @pytest.fixture
